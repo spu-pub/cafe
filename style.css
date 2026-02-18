@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e1e5ea;
+    font-weight: 300;
+}
+
+/* init */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.app-shell {
+    margin: 0;
+    background: #e1e7ea;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.brand-name {
+    font-size: 16px;
+    font-weight: 300;
+    color: #2236eb;
+}
+
+.label {
+    font-size: 16px;
+    letter-spacing: 0.28em;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 0.14em;
+    color: #000;
+}
+
+.description {
+    margin: 0;
+    font-size: 15px;
+    color: orangered;
+    letter-spacing: 0.2em;
+}
+
+/* button */
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    padding: 10px 15px;
+    font-weight: 300;
+    border-radius: 14px;
+}
+
+.btn.primary {
+    background: #eca776;
+    color: #fff;
+}
+
+.btn.secondary {
+    background: #0b111a;
+    color: #fff;
+}
+
+.hero-actions {
+    margin-top: 5px;
+    display: flex;
+    gap: 14px;
+}
+
+.hero-card {
+    background-image: url(https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    min-height: 240px;
+}
