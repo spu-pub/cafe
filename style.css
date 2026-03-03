@@ -81,6 +81,9 @@ h1 {
 }
 
 .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 17px;
     & .menu-card {
         & .thumbnail {
             & img {
