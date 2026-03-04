@@ -84,6 +84,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 17px;
+
     & .menu-card {
         & .thumbnail {
             & img {
@@ -104,6 +105,7 @@ h1 {
 .top-nav {
     display: flex;
     padding: 24px 22px 12px;
+
     & .brand {
         padding-bottom: 5px;
     }
@@ -132,5 +134,25 @@ h1 {
 .about-image {
     & img {
         width: 100%;
+    }
+}
+
+.about-body {
+    padding: 20px 22px 22px;
+
+    & h2 {
+        margin: 0;
+        font-size: 16px;
+    }
+}
+
+.about {
+    display: flex;
+
+    & h2 {
+        font-size: 26px;
+        margin: 0;
+        color: #eca776;
+        letter-spacing: 1px;
     }
 }
