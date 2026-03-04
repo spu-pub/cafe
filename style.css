@@ -92,3 +92,45 @@ h1 {
         }
     }
 }
+
+.hero-content {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top-nav {
+    display: flex;
+    padding: 24px 22px 12px;
+    & .brand {
+        padding-bottom: 5px;
+    }
+}
+
+.thumbnail {
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.menu-body {
+    & h3 {
+        margin: 0;
+        font-size: 18px;
+        color: #eca776;
+    }
+}
+
+.menu-price {
+    & p {
+        margin: 0;
+        font-size: 13px;
+    }
+}
+
+.about-image {
+    & img {
+        width: 100%;
+    }
+}
